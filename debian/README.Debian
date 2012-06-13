@@ -1,0 +1,26 @@
+phpCAS for Debian
+-----------------
+
+This package helps interface PHP applications with a CAS (Central
+Authentication Service) server, typically to perform SSO (Single Sign
+On) against a central directory.
+
+Your code may use things like :
+
+---
+include_once('CAS.php');
+
+phpCAS::client(CAS_VERSION_2_0,'localhost',8443,'/cas-server-webapp-3.2.1.1/');
+
+// force CAS authentication
+phpCAS::forceAuthentication();
+
+$user = phpCAS::getUser();
+----
+
+Documentation is available at :
+http://www.ja-sig.org/wiki/display/CASC/phpCAS and
+http://www.ja-sig.org/downloads/cas-clients/php/current/docs/
+
+
+ -- Olivier Berger <obergix@debian.org>, Wed, 13 Jun 2012 21:41:45 +0200
