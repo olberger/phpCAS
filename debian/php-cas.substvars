@@ -1,5 +1,0 @@
-phppear:Debian-Depends=php5 (>= 5.0.0), php-pear (>= 1.4.3), php5-curl, php5-pdo
-phppear:summary=Central Authentication Service client library in php
-phppear:description=This package is a PEAR installable library for using a Central${Newline}Authentication Service.
-phppear:channel=__uri
-misc:Depends=
