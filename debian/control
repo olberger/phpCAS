@@ -1,17 +1,18 @@
 Source: php-cas
 Section: php
 Priority: optional
-Maintainer: Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>
+Maintainer: Olivier Berger <obergix@debian.org>
+Uploaders: Olivier Berger <olivier.berger@it-sudparis.eu>
 Build-Depends: debhelper (>= 8), pkg-php-tools
 Build-Depends-Indep: php-pear
 Standards-Version: 3.9.3
-Vcs-Browser: http://git.debian.org/?p=pkg-php/php-cas.git
-Vcs-Git: http://git.debian.org/git/pkg-php/php-cas.git
-Homepage: http://pear.php.net/package/CAS
+Vcs-Browser: http://git.debian.org/?p=users/obergix/phpcas.git
+Vcs-Git: http://anonscm.debian.org/git/users/obergix/phpcas.git
+Homepage: http://wiki.jasig.org/display/CASC/phpCAS
 
 Package: php-cas
 Architecture: all
-Depends: ${misc:Depends}, php-pear, ${phppear:Debian-Depends}
+Depends: ${misc:Depends}, php-pear, php5-curl, php-db, ${phppear:Debian-Depends}
 Recommends: ${phppear:Debian-Recommends}
 Breaks: ${phppear:Debian-Breaks}
 Description: ${phppear:summary}
