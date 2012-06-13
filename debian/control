@@ -12,7 +12,7 @@ Homepage: http://wiki.jasig.org/display/CASC/phpCAS
 
 Package: php-cas
 Architecture: all
-Depends: ${misc:Depends}, php-pear, php5-curl, php-db, ${phppear:Debian-Depends}
+Depends: ${misc:Depends}, php5 (>= 5.0.0), php5-curl, php-db
 Recommends: ${phppear:Debian-Recommends}
 Breaks: ${phppear:Debian-Breaks}
 Description: ${phppear:summary}
