@@ -1,40 +1,6 @@
-php-cas (1.3.1-1) UNRELEASED; urgency=low
+php-cas (1.3.1-1) unstable; urgency=low
 
   * Initial release. (Closes: #495542)
 
- -- Olivier Berger <obergix@debian.org>  Wed, 13 Jun 2012 18:00:52 +0200
-
-libcas-php (1.0.2RC1-1) UNRELEASED; urgency=low
-
-  * Preparing for new upstream version
-  * Removing unnecessary patches
-
- -- Olivier Berger <olivier.berger@it-sudparis.eu>  Sun, 14 Dec 2008 18:30:25 +0100
-
-libcas-php (1.0.1-2) unstable; urgency=low
-
-  * Cleanup debian/rules.
-  * Add missing updtream README in docs/.
-  * Move PGT storage dir to /var/lib/libcas-php/pgtstorage/ for safety
-    reasons.
-  * fix crash of validatePGT() when using new domxml-php4-to-php5.php
-    (upstream bug PHPCAS-35)
-
- -- Olivier Berger <olivier.berger@it-sudparis.eu>  Tue, 18 Nov 2008 16:35:12 +0100
-
-libcas-php (1.0.1-1) unstable; urgency=low
-
-  * New upstream version 1.0.1.
-  * Replace version 1.5.5 of domxml-php4-php5.php under problematic
-    non-DFSG license by latest domxml-php4-to-php5.php (1.20a) now under
-    LGPL.
-  * Now architecture independent.
-
- -- Olivier Berger <olivier.berger@it-sudparis.eu>  Mon, 17 Nov 2008 11:34:33 +0100
-
-libcas-php (1.0.0-1) unstable; urgency=low
-
-  * Initial release (Closes: #495542)
-
- -- Olivier Berger <olivier.berger@it-sudparis.eu>  Mon, 18 Aug 2008 17:16:38 +0200
+ -- Olivier Berger <obergix@debian.org>  Wed, 13 Jun 2012 22:37:43 +0200
 
