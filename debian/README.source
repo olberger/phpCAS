@@ -1,0 +1,8 @@
+This is subdir where source for the 'php-cas' Debian package, maintained with git-buildpackage.
+
+* Testing package generation :
+
+$ git-buildpackage --git-export-dir=../build-area/ --git-ignore-new --git-dont-purge -us -uc
+
+ -- Olivier Berger <obergix@debian.org>, Wed, 13 Jun 2012 18:41:38 +0200
+

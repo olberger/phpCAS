@@ -2,3 +2,4 @@
 %:
 	dh $@ --buildsystem=phppear --with phppear
 
+override_dh_auto_install:
