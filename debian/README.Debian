@@ -12,15 +12,21 @@ include_once('CAS.php');
 
 phpCAS::client(CAS_VERSION_2_0,'localhost',8443,'/cas-server-webapp-3.2.1.1/');
 
+//phpCAS::setNoCasServerValidation();
+
 // force CAS authentication
 phpCAS::forceAuthentication();
 
 $user = phpCAS::getUser();
+
 ----
 
-Documentation is available at :
+See also the examples in /usr/share/doc/php-cas/examples/ for more details.
+
+
+Full documentation is available at :
 http://www.ja-sig.org/wiki/display/CASC/phpCAS and
 http://www.ja-sig.org/downloads/cas-clients/php/current/docs/
 
 
- -- Olivier Berger <obergix@debian.org>, Wed, 13 Jun 2012 21:41:45 +0200
+ -- Olivier Berger <obergix@debian.org>, Wed, 13 Jun 2012 22:04:33 +0200
